@@ -1,0 +1,103 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #7520a7;
+}
+
+.container-figma {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* Não centralizar verticalmente! */
+}
+
+.lottie-anim {
+  width: 300px;
+  height: 300px;
+  margin-top: px; /* Espaço do topo da página até a animação */
+  margin-bottom: -450px; /* Espaço negativo para aproximar da borda superior do retângulo */
+  z-index: 2;
+}
+
+.figma-rectangle {
+  width: 413px;
+  height: 812px;
+  background: #fffdfd;
+  border-radius: 100px;
+  border: 7px solid #fefefe;
+  box-shadow: 10px 10px 42px 12px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  padding-top: 50px; /* espaço do topo até o cinza */
+  box-sizing: border-box;
+}
+
+.figma-rectangle-2 {
+  width: 363px;
+  height: 574px;
+  background: #e2e2e2;
+  border-radius: 72px;
+  margin-bottom: 44px; /* espaço entre cinza e botões (ajuste conforme necessário) */
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}
+
+.btn {
+  font-family: "ADLaM Display", cursive sans-serif;
+  width: 268px;
+  height: 67px;
+  border: none;
+  border-radius: 14px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 12px;
+  cursor: pointer;
+  transition: filter 0.2s;
+  position: relative;
+  right: -65px;
+  bottom: 12px;
+}
+
+.btn-signup {
+  background: #c77cf9;
+  color: #fff;
+  font-weight: bold;
+  box-shadow: 7px 7px 7px 0px rgba(0, 0, 0, 0.2);
+}
+
+.btn-signup:focus,
+.btn-signup:hover {
+  filter: brightness(0.95);
+  outline: 2px solid #ffffff;
+}
+
+.btn-signin {
+  background: #fffdfd;
+  color: #4b4b4b;
+  font-weight: bold;
+  margin-bottom: 0;
+  box-shadow: 7px 7px 7px 0px rgba(0, 0, 0, 0.2);
+}
+
+.btn-signin:focus,
+.btn-signin:hover {
+  filter: brightness(0.98);
+  outline: 2px solid #ffffff;
+}

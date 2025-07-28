@@ -1,0 +1,7 @@
+{
+  "name": "projeto-html-css-js",
+  "version": "1.0.0",
+  "dependencies": {
+    "@lottiefiles/dotlottie-web": "^0.49.0"
+  }
+}
