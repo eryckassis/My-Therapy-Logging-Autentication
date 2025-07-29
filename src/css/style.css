@@ -3,6 +3,7 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
+  overflow: hidden;
 }
 
 body {
@@ -10,43 +11,53 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: #7520a7;
+  background: #d180f6;
 }
 
-.container-figma {
+.center-container {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
+  min-height: 100vh;
+  gap: 100px;
   /* Não centralizar verticalmente! */
 }
 
 .lottie-anim {
-  width: 300px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  pointer-events: none;
   height: 300px;
-  margin-top: px; /* Espaço do topo da página até a animação */
-  margin-bottom: -450px; /* Espaço negativo para aproximar da borda superior do retângulo */
-  z-index: 2;
+  width: 300px;
 }
 
 .figma-rectangle {
   width: 413px;
-  height: 812px;
-  background: #fffdfd;
+  height: 870px;
+  position: relative;
+  background: #e6d4f1;
   border-radius: 100px;
-  border: 7px solid #fefefe;
+  border: 7px solid #a56abd;
   box-shadow: 10px 10px 42px 12px rgba(0, 0, 0, 0.5);
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   position: relative;
-  padding-top: 50px; /* espaço do topo até o cinza */
+  padding-top: 30px; /* espaço do topo até o cinza */
   box-sizing: border-box;
 }
 
 .figma-rectangle-2 {
   width: 363px;
   height: 574px;
-  background: #e2e2e2;
+  position: relative;
+  top: -20px;
+  background: #d1a7e2;
   border-radius: 72px;
   margin-bottom: 44px; /* espaço entre cinza e botões (ajuste conforme necessário) */
 }
@@ -76,9 +87,10 @@ body {
 }
 
 .btn-signup {
-  background: #c77cf9;
+  background: #a56abd;
   color: #fff;
   font-weight: bold;
+  font-size: 20;
   box-shadow: 7px 7px 7px 0px rgba(0, 0, 0, 0.2);
 }
 
@@ -89,7 +101,7 @@ body {
 }
 
 .btn-signin {
-  background: #fffdfd;
+  background: #e7dbef;
   color: #4b4b4b;
   font-weight: bold;
   margin-bottom: 0;
@@ -100,4 +112,15 @@ body {
 .btn-signin:hover {
   filter: brightness(0.98);
   outline: 2px solid #ffffff;
+}
+
+.bungee-shade-regular {
+  font-family: "Bungee Shade", sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  font-style: normal;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  z-index: 10;
 }
