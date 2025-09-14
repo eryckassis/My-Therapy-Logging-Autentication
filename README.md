@@ -2,7 +2,14 @@
 
 ## Visão Geral
 
-Este projeto tem como objetivo a construção de uma interface de autenticação moderna, responsiva e animada, utilizando práticas avançadas de desenvolvimento front-end e princípios de clean code. O sistema está em desenvolvimento contínuo, com foco em escalabilidade, manutenibilidade e experiência do usuário em nível profissional.
+
+
+https://github.com/user-attachments/assets/71101610-1647-47e9-8ecc-22a5d535b231
+
+
+
+
+Apresento o My Therapy – Tela de Login para Psicólogos, uma solução em pleno desenvolvimento pensada para facilitar o acesso de profissionais de psicologia a uma plataforma moderna de agendamento. O projeto oferece uma experiência visual diferenciada, combinando animações sofisticadas, responsividade e usabilidade, sempre com foco na excelência técnica e no cuidado com o usuário.
 
 ## Tecnologias Utilizadas
 
@@ -82,7 +89,9 @@ Este projeto tem como objetivo a construção de uma interface de autenticação
 
 ## Status do Projeto
 
-O projeto encontra-se em desenvolvimento ativo. Novas funcionalidades, integrações e melhorias de usabilidade estão sendo implementadas continuamente. O código está em constante refatoração para garantir aderência às melhores práticas de desenvolvimento front-end e clean code.
+O My Therapy é mais do que uma tela de login: é o primeiro passo para uma jornada digital eficiente, segura e acolhedora para psicólogos que desejam otimizar sua rotina de agendamentos e atendimento.
+
+O projeto está em constante evolução, com novas funcionalidades e melhorias sendo implementadas continuamente. Se você tem interesse em contribuir, compartilhar ideias ou acompanhar o progresso, sinta-se à vontade para entrar em contato.
 
 ---
 
