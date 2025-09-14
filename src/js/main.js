@@ -90,7 +90,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   gsap.to(".loader", {
     rotate: 45,
-    y: 500,
+    y: 700,
     x: 2000,
     duration: 1,
     delay: 7,
